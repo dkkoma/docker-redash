@@ -1,0 +1,4 @@
+development:
+  dialect: mysql
+  datasource: redash:redash@(127.0.0.1:3316)/redash?parseTime=true
+  dir: migrations
