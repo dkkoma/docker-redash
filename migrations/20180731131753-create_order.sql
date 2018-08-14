@@ -30,7 +30,7 @@ CREATE TABLE customers (
   PRIMARY KEY(id)
 );
 -- +migrate Down
+DROP TABLE order_items;
 DROP TABLE orders;
 DROP TABLE items;
-DROP TABLE order_items;
 DROP TABLE customers;
